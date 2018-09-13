@@ -7,8 +7,8 @@ float duration,distance ;
 
 ESP8266WebServer server(80); // 80 is the port number
 
-const char* ssid="Harsh";
-const char* password="9bb992e97a34";
+const char* ssid="SSID";
+const char* password="PASSWORD";
 
 String Website,data,XML,Javascript;
 void javascriptContent(){
